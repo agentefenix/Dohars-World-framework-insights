@@ -68,6 +68,7 @@ export function AgentSelector({ onSelect, onClose }: AgentSelectorProps) {
           loop
           muted
           playsInline
+          preload="auto"
           className="w-full rounded-lg border border-border/30 shadow-inner"
         />
       </div>
