@@ -174,7 +174,7 @@ const Index = () => {
       <Sparkles />
 
       {/* Hero Section */}
-      <section className="min-h-screen flex flex-col items-center justify-center px-6 relative">
+      <section className="min-h-screen flex flex-col items-center justify-center px-6 pt-16 md:pt-24 relative">
         {/* Scroll edges decoration */}
         <div className="absolute left-0 top-0 bottom-0 w-8 bg-gradient-to-r from-parchment-dark to-transparent" />
         <div className="absolute right-0 top-0 bottom-0 w-8 bg-gradient-to-l from-parchment-dark to-transparent" />
