@@ -5,6 +5,7 @@ import { Send, X, Trash2, User, Loader2, Brain, ChevronDown, ChevronUp, Wrench, 
 import { Collapsible, CollapsibleContent, CollapsibleTrigger } from "@/components/ui/collapsible";
 import { Agent } from "@/components/AgentSelector";
 import { getAgentAvatars } from "@/lib/avatarMap";
+import { TaskPanel } from "@/components/TaskPanel";
 
 interface AgentChatProps {
   selectedAgent: Agent;
@@ -167,6 +168,9 @@ export function AgentChat({ selectedAgent, className = "", onClose, onBack }: Ag
 
       {/* Reasoning Panel */}
       <ReasoningPanel steps={reasoningSteps} currentStep={currentStep} isThinking={isThinking} />
+
+      {/* Task Panel */}
+      <TaskPanel agentId={selectedAgent.id} />
 
       {/* Messages */}
       <div className="flex-1 overflow-y-auto p-4 space-y-4">
