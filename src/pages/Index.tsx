@@ -209,9 +209,9 @@ const Index = () => {
             <ChevronDown className={`w-3 h-3 transition-transform ${caDropdownOpen ? 'rotate-180' : ''}`} />
           </button>
           {caDropdownOpen && (
-            <div className="absolute top-full right-0 mt-2 bg-background border-2 border-primary/50 rounded shadow-lg p-3 min-w-[140px]">
-              <p className="font-pixel text-[10px] text-foreground">
-                Coming Soon
+            <div className="absolute top-full right-0 mt-2 bg-background border-2 border-primary/50 rounded shadow-lg p-3 min-w-[280px]">
+              <p className="font-pixel text-[10px] text-foreground break-all">
+                6fdxiCPreHzCoAE8XxvcW2i81gY9pBKg26nn6CNydoge
               </p>
             </div>
           )}
